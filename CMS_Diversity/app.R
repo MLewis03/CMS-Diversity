@@ -9,8 +9,6 @@ library(htmltools)
 
 source("data_prep2.R")
 
-#Was here
-
 max_count <- max(tidydistrict_counts$Count)
 schools <- unique(tidydata$School)
 groups <- unique(tidydata$Group)
